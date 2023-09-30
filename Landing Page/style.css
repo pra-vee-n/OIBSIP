@@ -1,0 +1,205 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Navigation Styles */
+nav {
+	background-color: #333;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #666;
+}
+
+/* Hero Image Styles */
+.hero-image {
+	background-image: url('./menu-g92e0b7a5e_640.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+}
+
+.hero-image h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero-image button {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.hero-image button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Menu Styles */
+.menu {
+	padding: 50px 0;
+}
+
+.menu h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.menu li {
+	margin: 0 20px 40px;
+	flex-basis: 300px;
+}
+
+.menu img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.menu h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.menu p {
+	margin-bottom: 10px;
+}
+
+.menu button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    
+    .menu button:hover {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    /* About Us Styles */
+    .about-us {
+    padding: 50px 0;
+    }
+    
+    .about-us h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .about-us p {
+    text-align: justify;
+    }
+    
+    /* Contact Us Styles */
+    .contact-us {
+    padding: 50px 0;
+    }
+    
+    .contact-us h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .contact-us label {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .contact-us input,
+    .contact-us textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    }
+    
+    .contact-us button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    
+    .contact-us button:hover {
+    background-color: #666;
+    }
+    
+    /* Footer Styles */
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    };
+
+input#name, input#email, input#message{
+    outline: 1px solid black !important;
+}
